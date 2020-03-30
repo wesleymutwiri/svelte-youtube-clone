@@ -43,6 +43,7 @@
         min-height: 100vh;
         overflow-x: none;
         overflow-y: scroll;
+        width: 300px;
     }
 
 
@@ -86,10 +87,20 @@
         margin: 0;
         text-transform: uppercase;
         text-align: left;
+        color: #69697f;
     }
 
     .fas {
         padding: 4px;
         padding-right: 10px;
+    }
+
+    .nav-link:hover {
+        background-color: #ff3465;
+        color: #fff;
+        border-radius: 16px;
+        border: none;
+        width: 130px;
+        padding: 6px 10px;
     }
 </style>
