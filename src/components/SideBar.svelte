@@ -7,7 +7,7 @@
         <div class="main-elements">
             <a href="#" class="nav-link"><i class="fas fa-search"></i> Discover</a>
             <a href="#" class="nav-link"><i class="fas fa-fire"></i> Trending</a>
-            <a href="#" class="nav-link">Following</a>
+            <a href="#" class="nav-link"><i class="fas fa-id-badge"></i> Following</a>
 
             <h4 class="playlist-header">Your videos</h4>
             <a href="#" class="nav-link"><i class="fas fa-heart"></i> Favourite</a>
