@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "YOUTUBECLONE",
+  "description": "Extremely simple Youtube clone",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
