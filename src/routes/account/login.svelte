@@ -1,21 +1,4 @@
 <script>
-  // const inputs = document.querySelectorAll(".input");
-
-  // function focusFunc(event) {
-  //   let parent = this.parentNode.parentNode;
-  //   parent.classList.add("focus");
-  // }
-
-  // function blurFunc() {
-  //   let parent = this.parentNode.parentNode;
-  //   if (this.value == "") {
-  //     parent.classList.remove("focus");
-  //   }
-  // }
-  // inputs.forEach((input) => {
-  //   input.addEventListener("focus", focusFunc);
-  //   input.addEventListener("blur", blurFunc);
-  // });
   let username = '';
   let password = '';
 </script>
@@ -230,7 +213,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 7rem;
     padding: 0 2rem;
-    margin-top: -100px;
+    /* margin-top: -100px; */
   }
 
   .img svg {
