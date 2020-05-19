@@ -1,39 +1,48 @@
-<div class="container">
-    <div class="navbar-header">
-        <h1>TWA<span class="pink-color">TWA</span></h1>
-        <p>Express yourself</p>
-    </div>
-    <div class="sidebar">
-        <div class="main-elements">
-            <a href="#" class="nav-link"><i class="fas fa-search"></i> Discover</a>
-            <a href="#" class="nav-link"><i class="fas fa-fire"></i> Trending</a>
-            <a href="#" class="nav-link"><i class="fas fa-id-badge"></i> Following</a>
+<nav>
 
-            <h4 class="playlist-header">Your videos</h4>
-            <a href="#" class="nav-link"><i class="fas fa-heart"></i> Favourite</a>
-            <a href="#" class="nav-link"><i class="fas fa-box"></i> my videos</a>
-            <a href="#" class="nav-link"><i class="fas fa-history"></i> play history</a>
-
-            <h4 class="playlist-header">My playlist</h4>
-            <a href="#" class="nav-link"><i class="fas fa-list"></i> English songs</a>
-            <a href="#" class="nav-link"><i class="fas fa-list"></i> Hindi Songs</a>
-            <a href="#" class="nav-link"><i class="fas fa-list"></i> Pop music</a>
-            <!-- todo: create div for images and for the channels  -->
-
-            <h4 class="playlist-header">Channels</h4>
-            <a href="#" class="nav-link">something</a>
-
-            <h4 class="playlist-header">Popular Hashtags</h4>
-            <a href="#" class="nav-link">something else</a>
-            <h4 class="playlist-header">More from TWATWA</h4>
-            <a href="#" class="nav-link"><i class="fas fa-gamepad"></i> Gaming</a>
-            <a href="#" class="nav-link"><i class="fas fa-music"></i> Music</a>
-            <hr>
-            <a href="#" class="nav-link"><i class="fas fa-cog"></i> Settings</a>
+    <div class="container">
+        <div class="navbar-header">
+            <h1>TWA<span class="pink-color">TWA</span></h1>
+            <p>Express yourself</p>
         </div>
+        <div class="sidebar">
+            <div class="main-elements">
+                <a href="#" class="nav-link"><i class="fas fa-search"></i> Discover</a>
+                <a href="#" class="nav-link"><i class="fas fa-fire"></i> Trending</a>
+                <a href="#" class="nav-link"><i class="fas fa-id-badge"></i> Following</a>
 
+                <h4 class="playlist-header">Your videos</h4>
+                <a href="#" class="nav-link"><i class="fas fa-heart"></i> Favourite</a>
+                <a href="#" class="nav-link"><i class="fas fa-box"></i> my videos</a>
+                <a href="#" class="nav-link"><i class="fas fa-history"></i> play history</a>
+
+                <h4 class="playlist-header">My playlist</h4>
+                <a href="#" class="nav-link"><i class="fas fa-list"></i> English songs</a>
+                <a href="#" class="nav-link"><i class="fas fa-list"></i> Hindi Songs</a>
+                <a href="#" class="nav-link"><i class="fas fa-list"></i> Pop music</a>
+                <!-- todo: create div for images and for the channels  -->
+
+                <h4 class="playlist-header">Channels</h4>
+                <a href="#" class="nav-link">something</a>
+
+                <h4 class="playlist-header">Popular Hashtags</h4>
+                <a href="#" class="nav-link">something else</a>
+                <h4 class="playlist-header">More from TWATWA</h4>
+                <a href="#" class="nav-link"><i class="fas fa-gamepad"></i> Gaming</a>
+                <a href="#" class="nav-link"><i class="fas fa-music"></i> Music</a>
+                <hr>
+                <a href="#" class="nav-link"><i class="fas fa-cog"></i> Settings</a>
+            </div>
+
+        </div>
     </div>
-</div>
+    <!-- <div class="row">
+        <form action="" method="get">
+            <input type="search" name="search" id="search">
+            <button type="submit">Upload</button>
+        </form>
+    </div> -->
+</nav>
 <style>
     .container {
         position: fixed;
@@ -102,5 +111,13 @@
         border: none;
         width: 130px;
         padding: 6px 10px;
+    }
+
+    .row {
+        width: 100%;
+        height: 10px;
+        position: fixed;
+        margin-left: 310px;
+        padding: 10px;
     }
 </style>
